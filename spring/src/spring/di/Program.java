@@ -14,7 +14,7 @@ public class Program {
 
 	public static void main(String[] args) {
 		
-		/* ½ºÇÁ¸µ¿¡°Ô Áö½ÃÇÏ´Â ¹æ¹ıÀ¸·Î ÄÚµå¸¦ º¯°æ
+		/* ìŠ¤í”„ë§ì—ê²Œ ì§€ì‹œí•˜ëŠ” ë°©ë²•ìœ¼ë¡œ ì½”ë“œë¥¼ ë³€ê²½
 		Exam exam = new BisiExam();
 		ExamConsole console = new GridExamConsole();
 		
