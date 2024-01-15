@@ -11,11 +11,12 @@
 	<context:component-scan base-package="spring.di.ui, spring.di.entity"/>
 	<!-- Exam exam = new BisiExam(); -->
 	
-	<!-- p네임스페이스를 추가. 하단 Namespaces 탭에서 추가하여 사용 -->		
+	
 	<!-- @Qualifier 어노테이션을 이용하여 bean의 id를 참조하도록 설정하여 모호한 참조를 명시적으로 바꾸어준다 -->
+	<bean id="exam1" class="spring.di.entity.BisiExam" p:kor="10" p:eng="10"/>
 	<!-- 
-	<bean id="exam1" class="spring.di.entity.BisiExam" p:kor="10" p:eng="10"/>	
-	<bean id="exam2" class="spring.di.entity.BisiExam" p:kor="20" p:eng="20"/>
+		<!-- p네임스페이스를 추가. 하단 Namespaces 탭에서 추가하여 사용 -->	
+		<bean id="exam2" class="spring.di.entity.BisiExam" p:kor="20" p:eng="20"/>
 	 -->	
 	
 <!-- 	setter, getter가 존재하는 객체에 xml로 값을 입력해주는 기능
