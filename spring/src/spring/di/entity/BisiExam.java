@@ -1,10 +1,18 @@
 package spring.di.entity;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
 public class BisiExam implements Exam {
 
+	@Value("20")
 	private int kor;
+	@Value("30")
 	private int eng;
+	@Value("40")
 	private int math;
+	@Value("50")
 	private int com;
 	
 	public BisiExam() {
